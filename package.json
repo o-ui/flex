@@ -1,0 +1,29 @@
+{
+  "name": "@o-ui/flex",
+  "version": "1.0.1",
+  "description": "",
+  "main": "dist/flex.common.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/o-ui/flex.git"
+  },
+  "keywords": [
+    "Vue.js",
+    "flex",
+    "o-ui"
+  ],
+  "author": "o-ui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/o-ui/flex/issues"
+  },
+  "homepage": "https://github.com/o-ui/flex#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.5.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0"
+  }
+}

@@ -1,0 +1,30 @@
+$justify: (
+  between: space-between,
+  around: space-around,
+  start: flex-start,
+  end: flex-end,
+  center: center
+);
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+@each $key, $value in $justify {
+  .row-#{$key} {
+    @extend .row;
+    justify-content: $value;
+    &.top {
+      align-items: flex-start;
+    }
+    &.bottom {
+      align-items: flex-end;
+    }
+    &.wrap {
+      flex-wrap: wrap;
+    }
+  }
+}
+.row-unit {
+  flex: 1;
+}
