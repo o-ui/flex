@@ -9,5 +9,3 @@ export default {
   name: 'rowUnit'
 }
 </script>
-
-<style lang="scss" src="./flex.scss"></style>

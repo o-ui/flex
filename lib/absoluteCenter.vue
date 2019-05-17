@@ -10,8 +10,7 @@ export default {
 }
 </script>
 
-<style lang="scss" src="./flex.scss"></style>
-<style lang="scss" scoped>
+<style lang="scss">
   .absolute-center {
     position: absolute;
     left: 50%;
